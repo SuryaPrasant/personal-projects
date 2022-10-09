@@ -15,7 +15,10 @@
       body {
         margin: 0;
         padding: 20px;
-        background-color: gray;
+        background-image: linear-gradient(grey, black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .main {
         display: flex;
@@ -37,7 +40,6 @@
         height: 360px;
       }
       .text {
-        margin: 3px;
         height: 70px;
         display: flex;
         flex-direction: column;
@@ -62,9 +64,10 @@
         padding: 3px 16px;
       }
       p {
+        color: aliceblue;
         margin: 0;
         text-align: center;
-/*         text-shadow: 0px 0px 3px #ffffffb0; */
+        /* text-shadow: 0px 0px 3px #ffffffb0; */
       }
       b {
         font-size: 22px;
@@ -78,14 +81,14 @@
   <body>
     <div class="main">
       <div class="image">
-        <img src="images/playlistdp.JPG">
+        <img src="images/playlistdp.JPG" />
         <div class="text">
           <p><b>Fav 💜</b></p>
           <p>By Prashanth</p>
         </div>
       </div>
       <div class="play">
-        <div class="logo"><img src="images/spotifylogo.png" ></div>
+        <div class="logo"><img src="images/spotifylogo.png" /></div>
         <div class="btn">
           <button type="button" class="btn btn-dark">
             <a href="">Play</a>
